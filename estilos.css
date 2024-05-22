@@ -364,7 +364,7 @@ html, body {
 
 .texto-formulario{
     position: absolute; 
-    top: 250px;
+    top: 173px;
     left: 550px; 
     text-align: center; 
  
@@ -376,7 +376,7 @@ html, body {
 
 .fondo-ingreso{
     position: absolute;
-  top: 300px;
+  top: 225px;
   left: 500px;
     background-color: rgba(92, 34, 146, 1);
    height: 70px;
@@ -387,7 +387,7 @@ html, body {
 
 .subtitulo-form{
     
-    top: 375px;
+    top: 300px;
     left: 630px;
    position: absolute;
     justify-content: center;
@@ -410,7 +410,7 @@ html, body {
     flex-direction: column;
     
     position: absolute; 
-    top: 500px; 
+    top: 400px; 
    left: 700px; 
    
 }
