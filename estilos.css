@@ -1,0 +1,774 @@
+html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Para evitar el desbordamiento horizontal */
+    
+    
+}
+
+.flex-containerrr, header{
+    display: flex;
+    
+    background-size: cover;
+     
+}
+
+.fondo-boton{
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    background-color: #5C2292;
+   height: 100px;
+   width: 400px;
+   border-radius: 30px;
+   -webkit-text-stroke: 6px solid #D37DD3;
+   padding-top: 2px;
+   padding-left: 2px;
+   padding-right: 2px;
+   padding-bottom: 2px;
+}
+
+.titulo-boton{
+    position: absolute;
+    top: 64%;
+    left: 8%;
+    color: white;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 35px;
+}
+
+.texto{
+    
+    position: absolute; 
+    text-align: center; 
+    font-family: "Paytone One", sans-serif; 
+    font-size: 80px;
+    color: white; 
+    -webkit-text-stroke: 7px #29034d;
+    margin-left: 100px;
+    margin-top: 135px;
+}
+
+.textodos{
+    
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    margin-left: 100px;
+    margin-top: 310px;
+    font-family: "Aoboshi One", serif;
+    font-size: 40px;
+}
+
+
+
+.main {
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: url('fondobody.png');
+    background-repeat: no-repeat;
+   height: 100vh;
+   margin-bottom: -100px;
+   
+ 
+   
+}
+
+
+
+.texto-main{
+    display: flex;
+    position: absolute; 
+    text-align: center; 
+    font-family: "Paytone One", sans-serif; 
+    font-size: 70px;
+    color: white; 
+    -webkit-text-stroke: 7px #29034d;
+    margin-top: -750px;
+    
+}
+
+.enfila{
+    display: flex;
+    
+    gap: 40px;
+}
+
+.fondocard{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    background-color: #EDD710;
+    width: 424px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.imagen-lit{
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+
+.texto-lit{
+  position: absolute;
+ top: 275px;
+ left: 50px;
+    color: white;
+    font-family: "Aoboshi One", serif;
+    font-size: 32px;
+ 
+}
+
+.fondo-lit{
+    position: absolute;
+    top: 650px;
+   left: 345px ;
+    background-color: #02C306;
+   height: 50px;
+   width: 240px;
+   
+   
+
+}
+
+.titulo-lit{
+    position: absolute;
+    top: 603px;
+    left: 359px ;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 40px;
+    color: white;
+
+}
+
+.fondocarddos{
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    background-color: #D37DD3;
+    width: 424px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.imagen-emilia{
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+
+.texto-emilia{
+    position: absolute;
+ top: 275px;
+ left: 50px;
+    color: white;
+    font-family: "Aoboshi One", serif;
+    font-size: 32px;
+}
+
+.fondo-emilia{
+    position: absolute;
+    top: 650px;
+   left: 775px ;
+    background-color: #5C2292;
+   height: 50px;
+   width: 335px;
+   
+
+}
+
+.titulo-emilia{
+    position: absolute;
+    top: 603px;
+    left: 791px ;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 40px;
+    color: white;
+}
+
+
+.fondocardtres{
+    position: absolute;
+    top: 20%;
+    left: 63%;
+    background-color: #6D85DB;
+    width: 424px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.imagen-tiago{
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+
+.texto-tiago{
+    position: absolute;
+ top: 275px;
+ left: 50px;
+    color: white;
+    font-family: "Aoboshi One", serif;
+    font-size: 32px;
+}
+
+.fondo-tiago{
+    position: absolute;
+    top: 650px;
+   left: 66%;
+    background-color: #0D1646;
+   height: 50px;
+   width: 240px;
+   padding-top: 2px;
+   padding-left: 2px;
+   padding-right: 2px;
+   padding-bottom: 2px;
+}
+
+.titulo-tiago{
+    position: absolute;
+   top: 603px;
+    left: 67%;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 40px;
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end; 
+    
+    
+
+}
+
+.texto-artistas{
+    -webkit-text-stroke: 2px solid #5C2292;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 60px;
+    color: white; 
+    top: 227%;
+    text-align: center;
+}
+
+.sub-images {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.image-row {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    gap: 50px; /* Espacio entre las imágenes de una fila */
+
+}
+
+.sub-img {
+    width: 280px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+
+.flex-containerr {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    
+    
+   
+}
+.textouno{
+    
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    -webkit-text-stroke: 2px solid #5C2292;
+    font-family: "Aoboshi One", serif;
+    font-size: 40px;
+    padding-left: 100px;
+
+}
+
+.imageuno{
+    position: absolute;
+    align-items: flex-end;
+    display: flex;
+    margin-top: -1000px;
+    width: 234px;
+    height: 234px;
+    
+}
+
+.imagedos{
+    position: absolute;
+   
+  
+}
+
+.fans{
+    position: relative;
+    display: flex;
+    background-color: black;
+}
+  
+
+
+.muchacho{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    justify-items: flex-start;
+}
+
+.muchacha{
+    position: absolute;
+    justify-items: flex-end;
+    
+}
+
+.muchachote{
+    position: absolute;
+}
+
+.formulario {
+    display: flex;
+    position: relative;
+    margin-bottom: -120px;
+    
+}
+
+
+.fondo-formulario {
+    position: relative; 
+    margin-bottom: -30px;
+    margin-top: 30px;
+}
+
+.titulo2 {
+    position: absolute; 
+    top: 50px; 
+    left: 50px; 
+    margin-left: 460px;
+    margin-top: 50px;
+    
+}
+
+.texto-formulario{
+    position: absolute; 
+    top: 250px;
+    left: 550px; 
+    text-align: center; 
+ 
+    font-family: "Paytone One", sans-serif; 
+    font-size: 50px;
+    color: white; 
+    -webkit-text-stroke: 4px #29034d;
+}
+
+.fondo-ingreso{
+    position: absolute;
+  top: 300px;
+  left: 500px;
+    background-color: rgba(92, 34, 146, 1);
+   height: 70px;
+   width: 900px;
+   border-radius: 20px;
+   
+}
+
+.subtitulo-form{
+    
+    top: 375px;
+    left: 630px;
+   position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e1e1e1;
+    -webkit-text-stroke: 2px solid #5C2292;
+    font-family: "Aoboshi One", serif;
+    font-size: 30px;
+    
+}
+
+.flex-formulario {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+   
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute; 
+    top: 500px; 
+   left: 700px; 
+   
+}
+
+input[type="text"],
+input[type="email"] {
+    background-color: black;
+    color: white;
+    height: 25px;
+    width: 400px;
+    padding: 10px;
+    font-size: 24px;
+    border: 3px solid #5C2292;
+    border-radius: 10px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    color: #e1e1e1;
+}
+
+.boton-ingresar {
+    position: absolute;
+    
+    background-color: #5C2292;
+    color: white;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 26px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    width: 420px;
+  
+}
+
+.oculto {
+    display: none;
+  }
+  
+  .feedback {
+    background-image: url('fondoformulario.png'); 
+    background-size: cover; 
+    position: relative;
+   
+  }
+  
+.mensajeuno{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 80px;
+    color: white; 
+    -webkit-text-stroke: 7px #29034d;
+
+}
+
+  .mensajedos{
+    color: white;
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   font-family: "Aoboshi One", serif;
+   font-size: 40px;
+  }
+
+.flex-grande{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around   ;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #5C2292;
+    
+}
+
+.seccion-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    
+    padding: 40px; 
+
+}
+
+.seccion-2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+
+.seccion-3 {
+    position: relative;
+    margin-left: 175px;
+    
+   
+    
+    
+}
+
+.seccion-4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 175px;
+    
+   
+}
+
+.flex-grande-fans{
+    position: relative;
+    
+}
+
+.textofans {
+   
+    position: absolute; 
+    top: 80%;
+    left: 50%;
+    left: 1%;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 70px;
+    color: white; 
+    -webkit-text-stroke: 7px #29034d;
+    
+}
+
+.imagen-muchacho{
+    
+    position: absolute;
+    top: 60%;
+    
+    
+}
+
+
+.segundo-flex{
+    
+    background-image: url('fondobody.png');
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+   height: 100vh;
+   justify-content: center;
+   gap: 30px;
+   margin-bottom: -125px;
+}
+
+.contenedor-foto-1{
+    display: flex;
+    position: relative;
+    width: 423px;
+    height: 440px;
+    background-color: #5C2292;
+    margin-top: 300px;
+    border-radius: 20px;
+}
+
+.contenedor-foto-2{
+    display: flex;
+    position: relative;
+    width: 423px;
+    height: 440px;
+    background-color: #5C2292;
+    margin-top: 300px;
+    border-radius: 20px;
+    
+}
+
+.contenedor-foto-3{
+    display: flex;
+    position: relative;
+    width: 423px;
+    height: 440px;
+    background-color: #5C2292;
+    margin-top: 300px;
+    border-radius: 20px;
+}
+
+.foto1{
+position: absolute;
+top: -75px;
+left: 119px;
+}
+
+.foto2{
+    
+    position: absolute;
+top: -75px;
+    left: 119px;
+}
+
+.foto3{
+    
+    position: absolute;
+top: -75px;
+    left: 119px;
+}
+
+.contorno1{
+background-color: #D37DD3;
+position: absolute;
+width: 423px;
+height: 50px;
+top: 135px;
+}
+
+.contorno2{
+    background-color: #D37DD3;
+    position: absolute;
+    width: 423px;
+    height: 50px;
+    top: 135px;
+}
+
+.contorno3{
+    background-color: #D37DD3;
+    position: absolute;
+    width: 423px;
+    height: 50px;
+    top: 135px;
+}
+
+.texto-dillom{
+    
+    position: absolute;
+    top: 175px;
+    color: white;
+    text-align: center;
+    font-family: "Aoboshi One", serif;
+    font-size: 32px;
+    left: 28px;
+    
+    
+}
+
+.texto-louis{
+    position: absolute;
+    top: 175px;
+    color: white;
+    text-align: center;
+    font-family: "Aoboshi One", serif;
+    font-size: 32px;
+    left: 19px;
+
+}
+
+.texto-miranda{
+    position: absolute;
+    top: 175px;
+    color: white;
+    text-align: center;
+    font-family: "Aoboshi One", serif;
+    font-size: 32px;
+    left: 21px;
+
+}
+
+.lucas{
+    position: relative;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 40px;
+    -webkit-text-stroke: 60px solid #6D85DB;
+    color: white;
+    top: -45px;
+    left: 150px;
+
+}
+
+.lucia{
+    position: relative;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 40px;
+    -webkit-text-stroke: 60px solid #5C2292;
+    color: white;
+    top: -45px;
+    left: 150px;
+}
+
+.jorge{
+    position: relative;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 40px;
+    -webkit-text-stroke: 60px solid #6D85DB;
+    color: white;
+    top: -45px;
+    left: 150px;
+}
+
+.titulo-segundo-flex{
+    position: absolute; 
+    
+    text-align: top;
+    text-align: center; 
+    font-family: "Paytone One"; 
+    font-size: 70px;
+    color: white; 
+    -webkit-text-stroke: 7px #5C2292;
+}
+
+footer{
+    position: relative;
+    background-color: #5C2292;
+    height: 120px;
+    
+    
+ }
+
+ .texto-footer{
+    position: absolute;
+    top: 3%;
+    left: 47%;
+    font-family: "Paytone One", sans-serif; 
+    font-size: 20px;
+    color: #D37DD3;
+
+ }
+
+ .algodee{
+    position: absolute;
+    top: 26px;
+    left: 647px;
+ }
+
+ .luzuj{
+    position: absolute;
+    top: 30%;
+    left: 59%;
+ }
+
+ .icono1{
+    position: absolute;
+    top: 47%;
+    left: 43%;
+ }
+
+ .icono2{
+    position: absolute;
+    top: 47%;
+    left: 47%;
+ }
+
+ .icono3{
+    position: absolute;
+    top: 47%;
+    left: 51%;
+ }
+
+ .icono4{
+    position: absolute;
+    top: 47%;
+    left: 55%;
+ }
