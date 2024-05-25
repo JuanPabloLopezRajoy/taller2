@@ -1,60 +1,63 @@
-html, body {
+html,
+body {
     background-color: black;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Para evitar el desbordamiento horizontal */
-    
-    
+    overflow-x: hidden;
+    /* Para evitar el desbordamiento horizontal */
+
+
 }
 
-.flex-containerrr, header{
+.flex-containerrr,
+header {
     display: flex;
-    
+
     background-size: cover;
-     
+
 }
 
-.fondo-boton{
+.fondo-boton {
     position: absolute;
     top: 65%;
     left: 7%;
     background-color: #5C2292;
-   height: 100px;
-   width: 400px;
-   border-radius: 30px;
-   -webkit-text-stroke: 6px solid #D37DD3;
-   padding-top: 2px;
-   padding-left: 2px;
-   padding-right: 2px;
-   padding-bottom: 2px;
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    -webkit-text-stroke: 6px solid #D37DD3;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
 }
 
-.titulo-boton{
+.titulo-boton {
     position: absolute;
     top: 64%;
     left: 8%;
     color: white;
-    font-family: "Paytone One", sans-serif; 
+    font-family: "Paytone One", sans-serif;
     font-size: 35px;
 }
 
-.texto{
-    
-    position: absolute; 
-    text-align: center; 
-    font-family: "Paytone One", sans-serif; 
+.texto {
+
+    position: absolute;
+    text-align: center;
+    font-family: "Paytone One", sans-serif;
     font-size: 80px;
-    color: white; 
+    color: white;
     -webkit-text-stroke: 7px #29034d;
     margin-left: 100px;
     margin-top: 135px;
 }
 
-.textodos{
-    
-    position: absolute; 
-    text-align: center; 
-    color: white; 
+.textodos {
+
+    position: absolute;
+    text-align: center;
+    color: white;
     margin-left: 100px;
     margin-top: 310px;
     font-family: "Aoboshi One", serif;
@@ -65,39 +68,39 @@ html, body {
 
 .main {
     position: relative;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url('fondobody.png');
     background-repeat: no-repeat;
-   height: 100vh;
-   margin-bottom: -100px;
-   
- 
-   
+    height: 100vh;
+    margin-bottom: -100px;
+
+
+
 }
 
 
 
-.texto-main{
+.texto-main {
     display: flex;
-    position: absolute; 
-    text-align: center; 
-    font-family: "Paytone One", sans-serif; 
+    position: absolute;
+    text-align: center;
+    font-family: "Paytone One", sans-serif;
     font-size: 70px;
-    color: white; 
+    color: white;
     -webkit-text-stroke: 7px #29034d;
     margin-top: -750px;
-    
+
 }
 
-.enfila{
+.enfila {
     display: flex;
-    
+
     gap: 40px;
 }
 
-.fondocard{
+.fondocard {
     position: absolute;
     top: 20%;
     left: 15%;
@@ -107,45 +110,45 @@ html, body {
     border-radius: 20px;
 }
 
-.imagen-lit{
+.imagen-lit {
     position: absolute;
     top: 8%;
     left: 10%;
 }
 
-.texto-lit{
-  position: absolute;
- top: 275px;
- left: 50px;
+.texto-lit {
+    position: absolute;
+    top: 275px;
+    left: 50px;
     color: white;
     font-family: "Aoboshi One", serif;
     font-size: 32px;
- 
+
 }
 
-.fondo-lit{
+.fondo-lit {
     position: absolute;
     top: 650px;
-   left: 345px ;
+    left: 345px;
     background-color: #02C306;
-   height: 50px;
-   width: 240px;
-   
-   
+    height: 50px;
+    width: 240px;
+
+
 
 }
 
-.titulo-lit{
+.titulo-lit {
     position: absolute;
     top: 603px;
-    left: 359px ;
-    font-family: "Paytone One", sans-serif; 
+    left: 359px;
+    font-family: "Paytone One", sans-serif;
     font-size: 40px;
     color: white;
 
 }
 
-.fondocarddos{
+.fondocarddos {
     position: absolute;
     top: 20%;
     left: 39%;
@@ -155,43 +158,43 @@ html, body {
     border-radius: 20px;
 }
 
-.imagen-emilia{
+.imagen-emilia {
     position: absolute;
     top: 8%;
     left: 10%;
 }
 
-.texto-emilia{
+.texto-emilia {
     position: absolute;
- top: 275px;
- left: 50px;
+    top: 275px;
+    left: 50px;
     color: white;
     font-family: "Aoboshi One", serif;
     font-size: 32px;
 }
 
-.fondo-emilia{
+.fondo-emilia {
     position: absolute;
     top: 650px;
-   left: 775px ;
+    left: 775px;
     background-color: #5C2292;
-   height: 50px;
-   width: 335px;
-   
+    height: 50px;
+    width: 335px;
+
 
 }
 
-.titulo-emilia{
+.titulo-emilia {
     position: absolute;
     top: 603px;
-    left: 791px ;
-    font-family: "Paytone One", sans-serif; 
+    left: 791px;
+    font-family: "Paytone One", sans-serif;
     font-size: 40px;
     color: white;
 }
 
 
-.fondocardtres{
+.fondocardtres {
     position: absolute;
     top: 20%;
     left: 63%;
@@ -201,39 +204,39 @@ html, body {
     border-radius: 20px;
 }
 
-.imagen-tiago{
+.imagen-tiago {
     position: absolute;
     top: 8%;
     left: 10%;
 }
 
-.texto-tiago{
+.texto-tiago {
     position: absolute;
- top: 275px;
- left: 50px;
+    top: 275px;
+    left: 50px;
     color: white;
     font-family: "Aoboshi One", serif;
     font-size: 32px;
 }
 
-.fondo-tiago{
+.fondo-tiago {
     position: absolute;
     top: 650px;
-   left: 66%;
+    left: 66%;
     background-color: #0D1646;
-   height: 50px;
-   width: 240px;
-   padding-top: 2px;
-   padding-left: 2px;
-   padding-right: 2px;
-   padding-bottom: 2px;
+    height: 50px;
+    width: 240px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
 }
 
-.titulo-tiago{
+.titulo-tiago {
     position: absolute;
-   top: 603px;
+    top: 603px;
     left: 67%;
-    font-family: "Paytone One", sans-serif; 
+    font-family: "Paytone One", sans-serif;
     font-size: 40px;
     color: white;
 }
@@ -242,17 +245,17 @@ html, body {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    align-items: flex-end; 
-    
-    
+    align-items: flex-end;
+
+
 
 }
 
-.texto-artistas{
+.texto-artistas {
     -webkit-text-stroke: 2px solid #5C2292;
-    font-family: "Paytone One", sans-serif; 
+    font-family: "Paytone One", sans-serif;
     font-size: 60px;
-    color: white; 
+    color: white;
     top: 227%;
     text-align: center;
 }
@@ -261,19 +264,21 @@ html, body {
     display: flex;
     position: relative;
     flex-direction: column;
-    gap: 30px; 
+    gap: 30px;
 }
 
 .image-row {
     display: flex;
     position: relative;
     justify-content: flex-end;
-    gap: 50px; /* Espacio entre las imágenes de una fila */
+    gap: 50px;
+
 
 }
 
 .sub-img {
-    width: 280px; /* Ajusta el tamaño según sea necesario */
+    width: 280px;
+
     height: auto;
 }
 
@@ -282,12 +287,13 @@ html, body {
     display: flex;
     justify-content: flex-start;
     position: relative;
-    
-    
-   
+
+
+
 }
-.textouno{
-    
+
+.textouno {
+
     display: flex;
     justify-content: flex-start;
     color: white;
@@ -298,44 +304,44 @@ html, body {
 
 }
 
-.imageuno{
+.imageuno {
     position: absolute;
     align-items: flex-end;
     display: flex;
     margin-top: -1000px;
     width: 234px;
     height: 234px;
-    
+
 }
 
-.imagedos{
+.imagedos {
     position: absolute;
-   
-  
+
+
 }
 
-.fans{
+.fans {
     position: relative;
     display: flex;
     background-color: black;
 }
-  
 
 
-.muchacho{
+
+.muchacho {
     position: absolute;
     margin-top: 100px;
     margin-left: 50px;
     justify-items: flex-start;
 }
 
-.muchacha{
+.muchacha {
     position: absolute;
     justify-items: flex-end;
-    
+
 }
 
-.muchachote{
+.muchachote {
     position: absolute;
 }
 
@@ -343,53 +349,53 @@ html, body {
     display: flex;
     position: relative;
     margin-bottom: -120px;
-    
+
 }
 
 
 .fondo-formulario {
-    position: relative; 
+    position: relative;
     margin-bottom: -30px;
     margin-top: 30px;
 }
 
 .titulo2 {
-    position: absolute; 
-    top: 50px; 
-    left: 50px; 
+    position: absolute;
+    top: 50px;
+    left: 50px;
     margin-left: 460px;
     margin-top: 50px;
-    
+
 }
 
-.texto-formulario{
-    position: absolute; 
+.texto-formulario {
+    position: absolute;
     top: 173px;
-    left: 550px; 
-    text-align: center; 
- 
-    font-family: "Paytone One", sans-serif; 
+    left: 550px;
+    text-align: center;
+
+    font-family: "Paytone One", sans-serif;
     font-size: 50px;
-    color: white; 
+    color: white;
     -webkit-text-stroke: 4px #29034d;
 }
 
-.fondo-ingreso{
+.fondo-ingreso {
     position: absolute;
-  top: 225px;
-  left: 500px;
+    top: 225px;
+    left: 500px;
     background-color: rgba(92, 34, 146, 1);
-   height: 70px;
-   width: 900px;
-   border-radius: 20px;
-   
+    height: 70px;
+    width: 900px;
+    border-radius: 20px;
+
 }
 
-.subtitulo-form{
-    
+.subtitulo-form {
+
     top: 300px;
     left: 630px;
-   position: absolute;
+    position: absolute;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -397,22 +403,22 @@ html, body {
     -webkit-text-stroke: 2px solid #5C2292;
     font-family: "Aoboshi One", serif;
     font-size: 30px;
-    
+
 }
 
 .flex-formulario {
     width: 400px;
     height: 400px;
     border-radius: 20px;
-   
+
     padding: 40px;
     display: flex;
     flex-direction: column;
-    
-    position: absolute; 
-    top: 400px; 
-   left: 700px; 
-   
+
+    position: absolute;
+    top: 400px;
+    left: 700px;
+
 }
 
 input[type="text"],
@@ -434,72 +440,73 @@ input[type="email"]::placeholder {
 
 .boton-ingresar {
     position: absolute;
-    
+
     background-color: #5C2292;
     color: white;
-    font-family: "Paytone One", sans-serif; 
+    font-family: "Paytone One", sans-serif;
     font-size: 26px;
     padding: 15px 40px;
     border-radius: 50px;
     border: none;
     cursor: pointer;
     width: 420px;
-  
+
 }
 
 .oculto {
     display: none;
-  }
-  
-  .feedback {
-    background-image: url('fondoformulario.png'); 
-    background-size: cover; 
+}
+
+.feedback {
+    background-image: url('fondoformulario.png');
+    background-size: cover;
     position: relative;
-   
-  }
-  
-.mensajeuno{
+
+}
+
+.mensajeuno {
     position: absolute;
-    top: 35%;
-    left: 50%;
-    font-family: "Paytone One", sans-serif; 
+    top: 250px;
+    left: 545px;
+    font-family: "Paytone One", sans-serif;
     font-size: 80px;
-    color: white; 
+    color: white;
     -webkit-text-stroke: 7px #29034d;
 
 }
 
-  .mensajedos{
+.mensajedos {
     color: white;
     position: absolute;
-   top: 50%;
-   left: 50%;
-   font-family: "Aoboshi One", serif;
-   font-size: 40px;
-  }
+    text-align: center;
+    top: 450px;
+    left: 285px;
+    font-family: "Aoboshi One", serif;
+    font-size: 40px;
+}
 
-.flex-grande{
+.flex-grande {
     display: flex;
     flex-direction: row;
-    justify-content: space-around   ;
+    justify-content: space-around;
     flex-wrap: nowrap;
     align-items: center;
     background-color: #5C2292;
-    
+
 }
 
-.seccion-1{
+.seccion-1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: nowrap;
     align-items: flex-start;
-    
-    padding: 40px; 
+
+    padding: 40px;
 
 }
 
-.seccion-2{
+.seccion-2 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -512,10 +519,10 @@ input[type="email"]::placeholder {
 .seccion-3 {
     position: relative;
     margin-left: 175px;
-    
-   
-    
-    
+
+
+
+
 }
 
 .seccion-4 {
@@ -524,50 +531,50 @@ input[type="email"]::placeholder {
     flex-direction: column;
     align-items: flex-end;
     margin-right: 175px;
-    
-   
+
+
 }
 
-.flex-grande-fans{
+.flex-grande-fans {
     position: relative;
-    
+
 }
 
 .textofans {
-   
-    position: absolute; 
+
+    position: absolute;
     top: 80%;
     left: 50%;
     left: 1%;
-    font-family: "Paytone One", sans-serif; 
+    font-family: "Paytone One", sans-serif;
     font-size: 70px;
-    color: white; 
+    color: white;
     -webkit-text-stroke: 7px #29034d;
-    
+
 }
 
-.imagen-muchacho{
-    
+.imagen-muchacho {
+
     position: absolute;
     top: 60%;
-    
-    
+
+
 }
 
 
-.segundo-flex{
-    
+.segundo-flex {
+
     background-image: url('fondobody.png');
     display: flex;
     flex-direction: row;
     background-repeat: no-repeat;
-   height: 100vh;
-   justify-content: center;
-   gap: 30px;
-   margin-bottom: -125px;
+    height: 100vh;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: -125px;
 }
 
-.contenedor-foto-1{
+.contenedor-foto-1 {
     display: flex;
     position: relative;
     width: 423px;
@@ -577,7 +584,7 @@ input[type="email"]::placeholder {
     border-radius: 20px;
 }
 
-.contenedor-foto-2{
+.contenedor-foto-2 {
     display: flex;
     position: relative;
     width: 423px;
@@ -585,10 +592,10 @@ input[type="email"]::placeholder {
     background-color: #5C2292;
     margin-top: 300px;
     border-radius: 20px;
-    
+
 }
 
-.contenedor-foto-3{
+.contenedor-foto-3 {
     display: flex;
     position: relative;
     width: 423px;
@@ -598,35 +605,27 @@ input[type="email"]::placeholder {
     border-radius: 20px;
 }
 
-.foto1{
-position: absolute;
-top: -75px;
-left: 119px;
-}
-
-.foto2{
-    
+.foto1 {
     position: absolute;
-top: -75px;
+    top: -75px;
     left: 119px;
 }
 
-.foto3{
-    
+.foto2 {
+
     position: absolute;
-top: -75px;
+    top: -75px;
     left: 119px;
 }
 
-.contorno1{
-background-color: #D37DD3;
-position: absolute;
-width: 423px;
-height: 50px;
-top: 135px;
+.foto3 {
+
+    position: absolute;
+    top: -75px;
+    left: 119px;
 }
 
-.contorno2{
+.contorno1 {
     background-color: #D37DD3;
     position: absolute;
     width: 423px;
@@ -634,7 +633,7 @@ top: 135px;
     top: 135px;
 }
 
-.contorno3{
+.contorno2 {
     background-color: #D37DD3;
     position: absolute;
     width: 423px;
@@ -642,8 +641,16 @@ top: 135px;
     top: 135px;
 }
 
-.texto-dillom{
-    
+.contorno3 {
+    background-color: #D37DD3;
+    position: absolute;
+    width: 423px;
+    height: 50px;
+    top: 135px;
+}
+
+.texto-dillom {
+
     position: absolute;
     top: 175px;
     color: white;
@@ -651,11 +658,11 @@ top: 135px;
     font-family: "Aoboshi One", serif;
     font-size: 32px;
     left: 28px;
-    
-    
+
+
 }
 
-.texto-louis{
+.texto-louis {
     position: absolute;
     top: 175px;
     color: white;
@@ -666,7 +673,7 @@ top: 135px;
 
 }
 
-.texto-miranda{
+.texto-miranda {
     position: absolute;
     top: 175px;
     color: white;
@@ -677,9 +684,9 @@ top: 135px;
 
 }
 
-.lucas{
+.lucas {
     position: relative;
-    font-family: "Paytone One", sans-serif; 
+    font-family: "Paytone One", sans-serif;
     font-size: 40px;
     -webkit-text-stroke: 60px solid #6D85DB;
     color: white;
@@ -688,9 +695,9 @@ top: 135px;
 
 }
 
-.lucia{
+.lucia {
     position: relative;
-    font-family: "Paytone One", sans-serif; 
+    font-family: "Paytone One", sans-serif;
     font-size: 40px;
     -webkit-text-stroke: 60px solid #5C2292;
     color: white;
@@ -698,9 +705,9 @@ top: 135px;
     left: 150px;
 }
 
-.jorge{
+.jorge {
     position: relative;
-    font-family: "Paytone One", sans-serif; 
+    font-family: "Paytone One", sans-serif;
     font-size: 40px;
     -webkit-text-stroke: 60px solid #6D85DB;
     color: white;
@@ -708,66 +715,687 @@ top: 135px;
     left: 150px;
 }
 
-.titulo-segundo-flex{
-    position: absolute; 
-    
-    text-align: top;
-    text-align: center; 
-    font-family: "Paytone One"; 
+.titulo-segundo-flex {
+    position: absolute;
+
+   
+    text-align: center;
+    font-family: "Paytone One";
     font-size: 70px;
-    color: white; 
+    color: white;
     -webkit-text-stroke: 7px #5C2292;
 }
 
-footer{
+footer {
+    display: flex;
     position: relative;
     background-color: #5C2292;
     height: 120px;
-    
-    
- }
+    bottom: 0;
 
- .texto-footer{
+
+}
+
+.texto-footer {
+
     position: absolute;
-    left: 850px;
-    font-family: "Paytone One", sans-serif; 
+    left: 47%;
+    font-family: "Paytone One", sans-serif;
     font-size: 20px;
     color: #D37DD3;
 
- }
+}
 
- .algodee{
+.algodee {
     position: absolute;
     top: 26px;
     left: 647px;
- }
+}
 
- .luzuj{
+.luzuj {
     position: absolute;
     top: 30%;
     left: 59%;
- }
+}
 
- .icono1{
+.icono1 {
     position: absolute;
     top: 47%;
     left: 43%;
- }
+}
 
- .icono2{
+.icono2 {
     position: absolute;
     top: 47%;
     left: 47%;
- }
+}
 
- .icono3{
+.icono3 {
     position: absolute;
     top: 47%;
     left: 51%;
- }
+}
 
- .icono4{
+.icono4 {
     position: absolute;
+    top: 47%;
+    left: 55%;
+}
+
+@media(max-width: 500px) {
+
+    .flex-containerrr {
+        background-image: url('nuevofondo.png');
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto {
+
+        position: absolute;
+        text-align: center;
+        font-family: "Paytone One", sans-serif;
+        font-size: 25px;
+        color: white;
+        -webkit-text-stroke: 3px #29034d;
+        top: 25%;
+    }
+
+    .textodos {
+
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 35%;
+        font-family: "Aoboshi One", serif;
+        font-size: 16px;
+    }
+
+    .fondo-boton {
+        position: absolute;
+        top: 75%;
+        background-color: #5C2292;
+        height: 54px;
+        width: 232px;
+        border-radius: 30px;
+        -webkit-text-stroke: 6px solid #D37DD3;
+
+    }
+
+    .titulo-boton {
+        position: absolute;
+        top: 85%;
+        color: white;
+        font-family: "Paytone One", sans-serif;
+        font-size: 18px;
+    }
+
+    .main {
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url('nuevofondomain.png');
+        background-size: cover;
+
+    }
+
+    .texto-main {
+        display: flex;
+        position: absolute;
+        text-align: center;
+        font-family: "Paytone One", sans-serif;
+        font-size: 22px;
+        color: white;
+        -webkit-text-stroke: 4px #29034d;
+        top: 25%;
+    }
+
+
+    .enfila {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fondocard {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        background-color: #EDD710;
+        width: 301px;
+        height: 135px;
+        border-radius: 20px;
+    }
+
+    .imagen-lit {
+        position: absolute;
+        top: 22%;
+        left: 60%;
+        width: 92px;
+        height: 113px;
+    }
+
+    .texto-lit {
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        color: white;
+        font-family: "Aoboshi One", serif;
+        font-size: 16px;
+
+    }
+
+    .fondo-lit {
+        position: absolute;
+        top: 45%;
+        left: 25%;
+        background-color: #02C306;
+        height: 38px;
+        width: 138px;
+
+    }
+
+    .titulo-lit {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        font-family: "Paytone One", sans-serif;
+        font-size: 20px;
+        color: white;
+
+    }
+
+    .fondocarddos {
+        position: absolute;
+        top: 55%;
+        left: 20%;
+        background-color: #EDD710;
+        width: 301px;
+        height: 135px;
+        border-radius: 20px;
+    }
+
+    .imagen-emilia {
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        width: 92px;
+        height: 113px;
+    }
+
+    .texto-emilia {
+        position: absolute;
+        top: 65%;
+        left: 20%;
+        color: white;
+        font-family: "Aoboshi One", serif;
+        font-size: 16px;
+    }
+
+    .fondo-emilia {
+        position: absolute;
+        top: 75%;
+        left: 25%;
+        background-color: #02C306;
+        height: 38px;
+        width: 138px;
+
+
+    }
+
+    .titulo-emilia {
+        position: absolute;
+        top: 80%;
+        left: 25%;
+        font-family: "Paytone One", sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+
+
+    .fondocardtres {
+        position: absolute;
+        top: 90%;
+        left: 20%;
+        background-color: #6D85DB;
+        width: 301px;
+        height: 135px;
+        border-radius: 20px;
+    }
+
+    .imagen-tiago {
+        position: absolute;
+        top: 92%;
+        left: 10%;
+        width: 92px;
+        height: 113px;
+    }
+
+    .texto-tiago {
+        position: absolute;
+        top: 95%;
+        left: 20%;
+        color: white;
+        font-family: "Aoboshi One", serif;
+        font-size: 16px;
+    }
+
+    .fondo-tiago {
+        position: absolute;
+        top: 100%;
+        left: 25%;
+        background-color: #6D85DB;
+        height: 38px;
+        width: 138px;
+    }
+
+    .titulo-tiago {
+        position: absolute;
+        top: 100%;
+        left: 25%;
+        font-family: "Paytone One", sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+
+    .flex-grande {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #5C2292;
+
+    }
+
+    .seccion-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textouno {
+
+        color: white;
+        -webkit-text-stroke: 2px solid #5C2292;
+        font-family: "Aoboshi One", serif;
+        font-size: 18px;
+
+    }
+
+    .seccion-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-artistas {
+        -webkit-text-stroke: 2px solid #5C2292;
+        font-family: "Paytone One", sans-serif;
+        font-size: 20px;
+        color: white;
+        top: 70%;
+        text-align: center;
+    }
+
+    .image-container {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+
+    }
+
+    .image-row {
+        display: flex;
+        position: relative;
+        gap: 50px;
+
+
+    }
+
+    .sub-images,
+    img {
+        flex: 1 0 auto;
+        margin: 0 25px;
+        width: 120px;
+        height: 134px;
+    }
+
+    .segundo-flex {
+
+        background-image: url('nuevofondomain.png');
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+    .titulo-segundo-flex {
+        position: absolute;
+
+        
+        font-family: "Paytone One";
+        font-size: 22px;
+        color: white;
+        -webkit-text-stroke: 4px #5C2292;
+    }
+
+
+    .contenedor-foto-1 {
+        display: flex;
+        position: relative;
+        width: 247px;
+        height: 72px;
+        background-color: #5C2292;
+        margin-top: 100px;
+        border-radius: 20px;
+    }
+
+    .contenedor-foto-2 {
+        display: flex;
+        position: relative;
+        width: 247px;
+        height: 72px;
+        background-color: #5C2292;
+        margin-top: 200px;
+        border-radius: 20px;
+
+    }
+
+    .contenedor-foto-3 {
+        display: flex;
+        position: relative;
+        width: 247px;
+        height: 72px;
+        background-color: #5C2292;
+        margin-top: 300px;
+        border-radius: 20px;
+    }
+
+    .foto1 {
+        position: absolute;
+        width: 74px;
+        height: 75px;
+        top: 100px;
+        left: 10%;
+    }
+
+    .foto2 {
+
+        position: absolute;
+        width: 74px;
+        height: 75px;
+        top: 150px;
+        left: 10%;
+    }
+
+    .foto3 {
+
+        position: absolute;
+        width: 74px;
+        height: 75px;
+        top: 200px;
+        left: 10%;
+    }
+
+    .contorno1 {
+        background-color: #D37DD3;
+        position: absolute;
+        width: 245px;
+        height: 25px;
+        margin-top: 75px;
+        border-radius: 20px;
+    }
+
+    .contorno2 {
+        background-color: #D37DD3;
+        position: absolute;
+        width: 245px;
+        height: 25px;
+        margin-top: 175px;
+        border-radius: 20px;
+    }
+
+    .contorno3 {
+        background-color: #D37DD3;
+        position: absolute;
+        width: 245px;
+        height: 25px;
+        margin-top: 275px;
+        border-radius: 20px;
+    }
+
+    .texto-dillom {
+
+        position: absolute;
+        margin-top: 230px;
+        color: white;
+        text-align: center;
+        font-family: "Aoboshi One", serif;
+        font-size: 14px;
+        left: 50px;
+
+
+    }
+
+    .texto-louis {
+        position: absolute;
+        top: 250px;
+        color: white;
+        text-align: center;
+        font-family: "Aoboshi One", serif;
+        font-size: 14px;
+        left: 50px;
+
+    }
+
+    .texto-miranda {
+        position: absolute;
+        top: 350px;
+        color: white;
+        text-align: center;
+        font-family: "Aoboshi One", serif;
+        font-size: 14px;
+        left: 50px;
+
+    }
+
+    .formulario {
+        display: flex;
+        position: relative;
+        margin-bottom: -120px;
+        background-image: url('nuevofod.png');
+
+    }
+
+    .fondo-ingreso {
+        position: absolute;
+        top: 1%;
+        left: 1%;
+        background-color: rgba(92, 34, 146, 1);
+        height: 105px;
+        width: 361px;
+    }
+
+    .texto-formulario {
+        position: absolute;
+        top: 10%;
+        left: 45%;
+        text-align: center;
+        font-family: "Paytone One", sans-serif;
+        font-size: 20px;
+        color: white;
+        -webkit-text-stroke: 4px #29034d;
+    }
+
+    .subtitulo-form {
+
+        top: 30%;
+        left: 45%;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #e1e1e1;
+
+        font-family: "Aoboshi One", serif;
+        font-size: 15px;
+
+    }
+
+    .flex-formulario {
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+    }
+
+    .oculto {
+        display: none;
+    }
+    
+    .feedback {
+        background-image: url('nuevofod.png');
+        background-size: cover;
+        position: relative;
+    
+    }
+
+    .mensajeuno {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-family: "Paytone One", sans-serif;
+        font-size: 30px;
+        color: white;
+        -webkit-text-stroke: 4px #29034d;
+    
+    }
+    
+    .mensajedos {
+        color: white;
+        position: absolute;
+        text-align: center;
+        top: 60%;
+        left: 40%;
+        font-family: "Aoboshi One", serif;
+        font-size: 16px;
+    }
+
+    input[type="text"],
+input[type="email"] {
+    background-color: black;
+    color: white;
+    height: 44px;
+    width: 234px;
+    padding: 10px;
+    font-size: 15px;
+    border: 3px solid #5C2292;
+    border-radius: 20px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    color: #e1e1e1;
+}
+
+.boton-ingresar {
+    position: absolute;
+
+    background-color: #5C2292;
+    color: white;
+    font-family: "Paytone One", sans-serif;
+    font-size: 13px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    width: 234px;
+    height: 49px;
+
+}
+
+footer {
+    display: flex;
+    position: relative;
+    background-color: #5C2292;
+    height: 360px;
+    bottom: 0;
+
+
+}
+
+.texto-footer {
+
+    position: absolute;
+    left: 47%;
+    font-family: "Paytone One", sans-serif;
+    font-size: 13px;
+    color: #D37DD3;
+
+}
+
+.algodee {
+    position: absolute;
+    width: 63px;
+    height: 62px;
+    top: 50%;
+    left: 10%;
+}
+
+.luzuj {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+.icono1 {
+    position: absolute;
+    top: 47%;
+    left: 20%;
+    width: 35px;
+    height: 34px;
+}
+
+.icono2 {
+    position: absolute;
+    top: 47%;
+    left: 30%;
+    width: 35px;
+    height: 34px;
+}
+
+.icono3 {
+    position: absolute;
+    top: 47%;
+    left: 40%;
+    width: 35px;
+    height: 34px;
+}
+
+.icono4 {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    width: 35px;
+    height: 34px;
+}
+
+}
     top: 47%;
     left: 55%;
  }
